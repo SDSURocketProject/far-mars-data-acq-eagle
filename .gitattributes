@@ -17,10 +17,6 @@
 *.RTF	 diff=astextplain
 
 #Language Overrides
-*.brd linguist-language=Eagle
-*.sch linguist-language=Eagle
-*.brd linguist-generated=false
-*.sch linguist-generated=false
-*.brd linguist-vendored=false
-*.sch linguist-vendored=false
+main.brd linguist-generated=false
+main.sch linguist-generated=false
 
