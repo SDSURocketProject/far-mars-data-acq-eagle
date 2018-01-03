@@ -1,2 +1,2 @@
 # far-mars-data-acq-eagle
-Main on-board data acquisition
+SAMD21G18A Based Data Acquisition Board
