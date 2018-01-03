@@ -9234,6 +9234,16 @@ Source: AVX .. aphvc.pdf</description>
 <sheets>
 <sheet>
 <plain>
+<wire x1="5.08" y1="165.1" x2="5.08" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="17.78" x2="254" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="256.54" y1="17.78" x2="431.8" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="431.8" y1="17.78" x2="431.8" y2="165.1" width="0.1524" layer="94"/>
+<wire x1="431.8" y1="165.1" x2="254" y2="165.1" width="0.1524" layer="94"/>
+<text x="307.34" y="127" size="1.778" layer="94">POWER REGULATOR</text>
+<text x="160.02" y="137.16" size="1.778" layer="94">SAMD21G18</text>
+<wire x1="254" y1="165.1" x2="5.08" y2="165.1" width="0.1524" layer="94"/>
+<wire x1="254" y1="165.1" x2="254" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="254" y1="17.78" x2="256.54" y2="17.78" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="167.64" y="88.9"/>
