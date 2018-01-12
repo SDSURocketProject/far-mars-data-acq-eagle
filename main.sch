@@ -16409,6 +16409,9 @@ Source: AVX .. aphvc.pdf</description>
 <part name="VCHG" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
+<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
+<part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16476,6 +16479,9 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="VCHG" gate="G$1" x="424.18" y="182.88"/>
 <instance part="GND21" gate="1" x="403.86" y="177.8"/>
 <instance part="SUPPLY9" gate="G$1" x="403.86" y="187.96"/>
+<instance part="R6" gate="G$1" x="96.52" y="205.74" rot="R270"/>
+<instance part="SUPPLY4" gate="G$1" x="96.52" y="213.36"/>
+<instance part="SUPPLY8" gate="G$1" x="210.82" y="142.24"/>
 </instances>
 <busses>
 </busses>
@@ -16490,6 +16496,11 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="401.32" y="83.82"/>
 <label x="403.86" y="83.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA09(I2C/AIN17/SER0:1+)"/>
+<wire x1="203.2" y1="121.92" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
+<label x="205.74" y="121.92" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="AIN4" class="0">
 <segment>
@@ -16501,6 +16512,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R25" gate="G$1" pin="2"/>
 <label x="426.72" y="83.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA08(I2C/AIN16/SER0:0+)"/>
+<wire x1="203.2" y1="124.46" x2="220.98" y2="124.46" width="0.1524" layer="91"/>
+<label x="205.74" y="124.46" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="AIN2" class="0">
 <segment>
@@ -16511,6 +16527,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="378.46" y1="83.82" x2="386.08" y2="83.82" width="0.1524" layer="91"/>
 <junction x="378.46" y="83.82"/>
 <label x="381" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA10(AIN18/SER0:2+)"/>
+<wire x1="203.2" y1="119.38" x2="220.98" y2="119.38" width="0.1524" layer="91"/>
+<label x="205.74" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -16578,6 +16599,21 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="210.82" x2="106.68" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="210.82" x2="96.52" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="VDDIO@36"/>
+<wire x1="203.2" y1="129.54" x2="210.82" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="SAMD21G18A" gate="G$1" pin="VDDIO@17"/>
+<wire x1="203.2" y1="132.08" x2="210.82" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="129.54" x2="210.82" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="132.08" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
+<junction x="210.82" y="132.08"/>
+<pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -16703,7 +16739,8 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="IMU" gate="G$1" pin="COM2"/>
 <wire x1="152.4" y1="165.1" x2="152.4" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="185.42" x2="129.54" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="185.42" x2="129.54" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="185.42" x2="129.54" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="182.88" x2="129.54" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="165.1" x2="129.54" y2="165.1" width="0.1524" layer="91"/>
 <junction x="152.4" y="165.1"/>
 <pinref part="IMU" gate="G$1" pin="PS1"/>
@@ -16714,6 +16751,9 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="154.94" y1="205.74" x2="129.54" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="205.74" x2="129.54" y2="203.2" width="0.1524" layer="91"/>
 <junction x="129.54" y="203.2"/>
+<pinref part="IMU" gate="G$1" pin="COM3"/>
+<wire x1="154.94" y1="182.88" x2="129.54" y2="182.88" width="0.1524" layer="91"/>
+<junction x="129.54" y="182.88"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
@@ -16768,6 +16808,11 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="332.74" y="83.82"/>
 <label x="335.28" y="83.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA07(AIN7/SER0:3/TC1:1)"/>
+<wire x1="134.62" y1="83.82" x2="114.3" y2="83.82" width="0.1524" layer="91"/>
+<label x="114.3" y="83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="AIN1" class="0">
 <segment>
@@ -16778,6 +16823,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="355.6" y1="83.82" x2="363.22" y2="83.82" width="0.1524" layer="91"/>
 <junction x="355.6" y="83.82"/>
 <label x="358.14" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA11(AIN19/SER0:3+)"/>
+<wire x1="203.2" y1="116.84" x2="220.98" y2="116.84" width="0.1524" layer="91"/>
+<label x="205.74" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -16809,18 +16859,6 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 </net>
 <net name="NRESET" class="0">
-<segment>
-<pinref part="SAMD21G18A" gate="G$1" pin="!RESET!"/>
-<wire x1="134.62" y1="132.08" x2="114.3" y2="132.08" width="0.1524" layer="91"/>
-<label x="119.38" y="132.08" size="1.778" layer="95"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="134.62" x2="114.3" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SWD" gate="G$1" pin="!RESET"/>
-<wire x1="246.38" y1="81.28" x2="233.68" y2="81.28" width="0.1524" layer="91"/>
-<label x="233.68" y="81.28" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IMU" gate="G$1" pin="NRESET"/>
 <label x="137.16" y="198.12" size="1.778" layer="95"/>
@@ -16935,53 +16973,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C8" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="*I2C_SDA" class="0">
-<segment>
-<pinref part="IMU" gate="G$1" pin="COM0"/>
-<wire x1="154.94" y1="190.5" x2="137.16" y2="190.5" width="0.1524" layer="91"/>
-<label x="137.16" y="190.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="*I2C_SCL" class="0">
-<segment>
-<pinref part="IMU" gate="G$1" pin="COM1"/>
-<wire x1="154.94" y1="187.96" x2="137.16" y2="187.96" width="0.1524" layer="91"/>
-<label x="137.16" y="187.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="*I2C_ADDR_SEL" class="0">
-<segment>
-<pinref part="IMU" gate="G$1" pin="COM3"/>
-<wire x1="154.94" y1="182.88" x2="137.16" y2="182.88" width="0.1524" layer="91"/>
-<label x="137.16" y="182.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="*INT" class="0">
+<net name="IMU_INT" class="0">
 <segment>
 <pinref part="IMU" gate="G$1" pin="INT"/>
 <wire x1="195.58" y1="195.58" x2="208.28" y2="195.58" width="0.1524" layer="91"/>
 <label x="195.58" y="195.58" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="*NBL_IMU" class="0">
-<segment>
-<pinref part="IMU" gate="G$1" pin="NBOOT_LOAD_PIN"/>
-<wire x1="154.94" y1="193.04" x2="137.16" y2="193.04" width="0.1524" layer="91"/>
-<label x="137.16" y="193.04" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="*XOUT32" class="0">
-<segment>
-<pinref part="IMU" gate="G$1" pin="XOUT32"/>
-<wire x1="195.58" y1="198.12" x2="208.28" y2="198.12" width="0.1524" layer="91"/>
-<label x="195.58" y="198.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="*XIN32" class="0">
-<segment>
-<pinref part="IMU" gate="G$1" pin="XIN32"/>
-<wire x1="154.94" y1="200.66" x2="137.16" y2="200.66" width="0.1524" layer="91"/>
-<label x="137.16" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MCU_TX" class="0">
@@ -17050,6 +17046,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="391.16" y1="142.24" x2="368.3" y2="142.24" width="0.1524" layer="91"/>
 <label x="368.3" y="142.24" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA20(SER5:2+)"/>
+<wire x1="203.2" y1="93.98" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
+<label x="205.74" y="93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO2" class="0">
 <segment>
@@ -17057,12 +17058,22 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="391.16" y1="139.7" x2="368.3" y2="139.7" width="0.1524" layer="91"/>
 <label x="368.3" y="139.7" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA23(I2C/SER3:0+)"/>
+<wire x1="203.2" y1="86.36" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
+<label x="205.74" y="86.36" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO3" class="0">
 <segment>
 <pinref part="GPIO" gate="A" pin="3"/>
 <wire x1="391.16" y1="137.16" x2="368.3" y2="137.16" width="0.1524" layer="91"/>
 <label x="368.3" y="137.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA18(SER1:2+)"/>
+<wire x1="203.2" y1="99.06" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
+<label x="205.74" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VSYS" class="0">
@@ -17078,6 +17089,52 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="421.64" y1="185.42" x2="403.86" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="185.42" x2="403.86" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="G$1" pin="VIN"/>
+</segment>
+</net>
+<net name="PA16_SER1_I2C_SDA" class="0">
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA16(I2C/SER1:0+)"/>
+<wire x1="203.2" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
+<label x="205.74" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IMU" gate="G$1" pin="COM0"/>
+<wire x1="154.94" y1="190.5" x2="137.16" y2="190.5" width="0.1524" layer="91"/>
+<label x="137.16" y="190.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PA17_SER1_I2C_SCL" class="0">
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA17(I2C/SER1:1+)"/>
+<wire x1="203.2" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
+<label x="205.74" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IMU" gate="G$1" pin="COM1"/>
+<wire x1="154.94" y1="187.96" x2="137.16" y2="187.96" width="0.1524" layer="91"/>
+<label x="137.16" y="187.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="IMU" gate="G$1" pin="NBOOT_LOAD_PIN"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="193.04" x2="96.52" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="193.04" x2="96.52" y2="200.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SWD_NRES" class="0">
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="!RESET!"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="132.08" x2="114.3" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="132.08" x2="114.3" y2="134.62" width="0.1524" layer="91"/>
+<label x="116.84" y="132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SWD" gate="G$1" pin="!RESET"/>
+<wire x1="246.38" y1="81.28" x2="233.68" y2="81.28" width="0.1524" layer="91"/>
+<label x="233.68" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -17322,10 +17379,10 @@ Source: AVX .. aphvc.pdf</description>
 <label x="45.72" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="S1" gate="1" pin="S"/>
-<wire x1="467.36" y1="121.92" x2="467.36" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="467.36" y1="124.46" x2="474.98" y2="124.46" width="0.1524" layer="91"/>
 <label x="467.36" y="124.46" size="1.778" layer="95"/>
+<pinref part="S1" gate="1" pin="S"/>
+<wire x1="467.36" y1="121.92" x2="467.36" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -17423,9 +17480,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="459.74" y1="109.22" x2="464.82" y2="109.22" width="0.1524" layer="91"/>
 <label x="467.36" y="91.44" size="1.778" layer="95" xref="yes"/>
-<wire x1="464.82" y1="109.22" x2="464.82" y2="111.76" width="0.1524" layer="91"/>
 <junction x="464.82" y="109.22"/>
-<pinref part="S1" gate="1" pin="P"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="467.36" y1="109.22" x2="464.82" y2="109.22" width="0.1524" layer="91"/>
 <junction x="464.82" y="109.22"/>
@@ -17434,6 +17489,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="467.36" y1="91.44" x2="464.82" y2="91.44" width="0.1524" layer="91"/>
 <junction x="464.82" y="91.44"/>
 <pinref part="Q3" gate="G$1" pin="S"/>
+<pinref part="S1" gate="1" pin="P"/>
+<wire x1="464.82" y1="109.22" x2="464.82" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PC_VREF" class="0">
@@ -17793,6 +17850,20 @@ Source: AVX .. aphvc.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,195.58,205.74,IMU,VDD,3.3V,,,"/>
+<approved hash="104,1,195.58,187.96,IMU,PIN10,GND,,,"/>
+<approved hash="104,1,195.58,185.42,IMU,PIN15,GND,,,"/>
+<approved hash="104,1,195.58,182.88,IMU,PIN16,GND,,,"/>
+<approved hash="104,1,195.58,180.34,IMU,GNDIO,GND,,,"/>
+<approved hash="202,1,154.94,200.66,IMU,XIN32,,,,"/>
+<approved hash="104,1,195.58,203.2,IMU,VDDIO,3.3V,,,"/>
+<approved hash="104,2,91.44,81.28,3.3V_REG,PGND,GND,,,"/>
+<approved hash="104,2,50.8,104.14,3.3V_REG,VIN,VSYS,,,"/>
+<approved hash="104,2,91.44,83.82,3.3V_REG,AGND,GND,,,"/>
+<approved hash="104,2,91.44,104.14,3.3V_REG,SW,N$7,,,"/>
+<approved hash="104,2,91.44,78.74,3.3V_REG,PAD,GND,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
