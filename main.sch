@@ -10900,127 +10900,6 @@ Switches electrical signals</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="switch" urn="urn:adsk.eagle:library:380">
-<description>&lt;b&gt;Switches&lt;/b&gt;&lt;p&gt;
-Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="M251" urn="urn:adsk.eagle:footprint:27546/1" library_version="1">
-<description>&lt;b&gt;SLIDING SWITCH&lt;/b&gt;&lt;p&gt;
-Mors, distributor Buerklin, 11G702</description>
-<wire x1="-1.27" y1="1.524" x2="-0.762" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="1.27" x2="-1.778" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="-3.302" y1="1.524" x2="-3.048" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="1.524" x2="-0.254" y2="-1.524" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="-1.524" x2="-0.508" y2="-1.524" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="1.524" x2="-2.286" y2="-1.524" width="0.1524" layer="51"/>
-<wire x1="-2.794" y1="1.524" x2="-2.794" y2="-1.524" width="0.1524" layer="51"/>
-<wire x1="-3.048" y1="-1.524" x2="-3.302" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="1.524" x2="-0.254" y2="1.524" width="0.1524" layer="51"/>
-<wire x1="3.302" y1="-1.27" x2="3.302" y2="1.27" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="-1.524" x2="-1.27" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.524" x2="-1.778" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="-1.524" x2="-2.794" y2="-1.524" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="1.524" x2="-2.794" y2="1.524" width="0.1524" layer="51"/>
-<wire x1="-2.032" y1="1.524" x2="-1.778" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="-1.524" x2="-0.254" y2="-1.524" width="0.1524" layer="51"/>
-<wire x1="3.302" y1="-1.524" x2="3.048" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-1.524" x2="3.048" y2="-1.524" width="0.1524" layer="51"/>
-<wire x1="2.032" y1="-1.524" x2="0.508" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="3.302" y1="1.524" x2="3.048" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="1.524" x2="3.048" y2="1.524" width="0.1524" layer="51"/>
-<wire x1="0.508" y1="1.524" x2="-0.254" y2="1.524" width="0.1524" layer="51"/>
-<wire x1="0.508" y1="1.524" x2="2.032" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="3.937" x2="6.985" y2="3.302" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-6.985" y1="-3.302" x2="-6.35" y2="-3.937" width="0.1524" layer="21" curve="90"/>
-<wire x1="-6.985" y1="3.302" x2="-6.35" y2="3.937" width="0.1524" layer="21" curve="-90"/>
-<wire x1="6.35" y1="-3.937" x2="6.985" y2="-3.302" width="0.1524" layer="21" curve="90"/>
-<wire x1="-6.985" y1="-3.302" x2="-6.985" y2="3.302" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="-3.937" x2="-6.35" y2="-3.937" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="-3.302" x2="6.985" y2="3.302" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="3.937" x2="-6.35" y2="3.937" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="-1.27" x2="-0.762" y2="1.27" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="1.524" x2="-0.762" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="-1.27" x2="-0.762" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.524" x2="-1.27" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="3.302" y1="1.524" x2="3.302" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.302" y1="-1.27" x2="3.302" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="1.524" x2="-0.508" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="-1.524" x2="-0.508" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="-1.27" x2="-3.302" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="1.27" x2="-3.302" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="-3.302" y1="1.524" x2="-3.302" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="-1.524" x2="-2.794" y2="-1.524" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="-1.524" x2="-2.032" y2="-1.524" width="0.1524" layer="51"/>
-<wire x1="-1.778" y1="-1.27" x2="-1.778" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="-1.524" x2="-2.032" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="1.27" x2="-1.778" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="1.524" x2="-1.27" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.524" x2="-2.286" y2="1.524" width="0.1524" layer="51"/>
-<wire x1="-2.794" y1="1.524" x2="-3.048" y2="1.524" width="0.1524" layer="51"/>
-<pad name="1" x="-2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
-<text x="-5.715" y="-0.889" size="1.778" layer="21" ratio="10">1</text>
-<text x="4.318" y="-0.889" size="1.778" layer="21" ratio="10">2</text>
-<text x="-5.715" y="2.032" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.715" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="M251" urn="urn:adsk.eagle:package:27680/1" type="box" library_version="1">
-<description>SLIDING SWITCH
-Mors, distributor Buerklin, 11G702</description>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="SIS" urn="urn:adsk.eagle:symbol:27543/1" library_version="1">
-<wire x1="-3.81" y1="1.905" x2="-3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.254" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-3.175" x2="2.54" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="0.635" y2="3.175" width="0.254" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="3.175" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="0" x2="-0.254" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-0.762" x2="0.254" y2="0" width="0.1524" layer="94"/>
-<text x="-6.35" y="-1.905" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="P" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="S" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="O" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="M251" urn="urn:adsk.eagle:component:27777/1" prefix="S" uservalue="yes" library_version="1">
-<description>&lt;b&gt;SLIDING SWITCH&lt;/b&gt;&lt;p&gt;
-Mors, distributor Buerklin, 11G702</description>
-<gates>
-<gate name="1" symbol="SIS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="M251">
-<connects>
-<connect gate="1" pin="O" pad="1"/>
-<connect gate="1" pin="P" pad="2"/>
-<connect gate="1" pin="S" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27680/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="adafruit">
 <packages>
 <package name="1206">
@@ -16273,6 +16152,394 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Switches">
+<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
+In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SWITCH_SPDT_PTH_11.6X4.0MM">
+<description>&lt;h3&gt;SPDT PTH Slide Switch&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="2.54" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="0" y="-2.54" drill="1.016" diameter="1.8796"/>
+<text x="-2.413" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="2.413" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+<package name="SWITCH_DPDT_SMD_AYZ0202">
+<description>&lt;h3&gt;ITT Industries AYZ0202 DPDT Switch - SMD&lt;/h3&gt;
+&lt;p&gt;Double-pole, double-throw switches.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/SW_slide_ayz.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-3.6" y1="1.75" x2="-3.6" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="-3.6" y1="-1.75" x2="3.6" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="3.6" y1="-1.75" x2="3.6" y2="1.75" width="0.2032" layer="21"/>
+<wire x1="3.6" y1="1.75" x2="-3.6" y2="1.75" width="0.2032" layer="21"/>
+<smd name="3" x="2.5" y="2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="2" x="0" y="2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="1" x="-2.5" y="2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="6" x="2.5" y="-2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="5" x="0" y="-2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="4" x="-2.5" y="-2.825" dx="1" dy="1.15" layer="1"/>
+<hole x="1.5" y="0" drill="0.85"/>
+<hole x="-1.5" y="0" drill="0.85"/>
+<text x="-3.81" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="3.81" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+<package name="SWITCH_SPDT_PTH_11.6X4.0MM_LOCK">
+<description>&lt;h3&gt;SPDT PTH Slide Switch - Locking Footprint&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the LOCK version of this package. This package has offset PTH pins, which help to hold the part in place while soldering.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="2.7178" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="0" y="-2.7178" drill="1.016" diameter="1.8796"/>
+<rectangle x1="-0.2286" y1="-0.3048" x2="0.2286" y2="0.3048" layer="51"/>
+<rectangle x1="-0.2286" y1="2.2352" x2="0.2286" y2="2.8448" layer="51"/>
+<rectangle x1="-0.2286" y1="-2.8448" x2="0.2286" y2="-2.2352" layer="51"/>
+<text x="-2.413" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="2.413" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+<package name="SWITCH_SPDT_PTH_11.6X4.0MM_KIT">
+<description>&lt;h3&gt;SPDT PTH Slide Switch - KIT Footprint&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="2.7178" drill="1.016" diameter="1.8796" stop="no"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796" stop="no"/>
+<pad name="3" x="0" y="-2.7178" drill="1.016" diameter="1.8796" stop="no"/>
+<rectangle x1="-0.2286" y1="-0.3048" x2="0.2286" y2="0.3048" layer="51"/>
+<rectangle x1="-0.2286" y1="2.2352" x2="0.2286" y2="2.8448" layer="51"/>
+<rectangle x1="-0.2286" y1="-2.8448" x2="0.2286" y2="-2.2352" layer="51"/>
+<polygon width="0.127" layer="30">
+<vertex x="-0.0178" y="1.8414" curve="-90.039946"/>
+<vertex x="-0.8787" y="2.6975" curve="-90"/>
+<vertex x="-0.0026" y="3.5916" curve="-90.006409"/>
+<vertex x="0.8738" y="2.6975" curve="-90.03214"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="-0.0051" y="-3.5967" curve="-90.006558"/>
+<vertex x="-0.8788" y="-2.7431" curve="-90.037923"/>
+<vertex x="0.0128" y="-1.8363" curve="-90.006318"/>
+<vertex x="0.8814" y="-2.7432" curve="-90.038792"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="-0.0102" y="-0.8738" curve="-90.019852"/>
+<vertex x="-0.8762" y="-0.0203" curve="-90.019119"/>
+<vertex x="0.0153" y="0.8789" curve="-90"/>
+<vertex x="0.8739" y="-0.0077" curve="-90.038897"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0" y="2.2758" curve="-90.012891"/>
+<vertex x="-0.4445" y="2.7" curve="-90"/>
+<vertex x="0" y="3.1673" curve="-90"/>
+<vertex x="0.4419" y="2.7102" curve="-90.012967"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0.0026" y="-3.1648" curve="-90.012891"/>
+<vertex x="-0.4419" y="-2.7406" curve="-90"/>
+<vertex x="0.0026" y="-2.2733" curve="-90"/>
+<vertex x="0.4445" y="-2.7304" curve="-90.012967"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0.0102" y="-0.4471" curve="-90.012891"/>
+<vertex x="-0.4343" y="-0.0229" curve="-90"/>
+<vertex x="0.0102" y="0.4444" curve="-90"/>
+<vertex x="0.4521" y="-0.0127" curve="-90.012967"/>
+</polygon>
+<text x="-2.413" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="2.413" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+<package name="SWITCH_SPST_SMD_A">
+<description>&lt;h3&gt;SPDT Slide Switch - SMD&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://cdn.sparkfun.com/datasheets/Components/Switches/SLIDE.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-3.35" y1="1.3" x2="-3.35" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="-3.35" y1="-1.3" x2="3.35" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="3.35" y1="-1.3" x2="3.35" y2="1.3" width="0.127" layer="51"/>
+<wire x1="3.35" y1="1.3" x2="-0.1" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-0.1" y1="1.3" x2="-1.4" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="1.3" x2="-3.35" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-0.1" y1="1.3" x2="-0.1" y2="2.8" width="0.127" layer="51"/>
+<wire x1="-0.1" y1="2.8" x2="-1.4" y2="2.8" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="2.8" x2="-1.4" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-3.477" y1="0.427" x2="-3.477" y2="-0.427" width="0.2032" layer="21"/>
+<wire x1="3.477" y1="0.427" x2="3.477" y2="-0.427" width="0.2032" layer="21"/>
+<wire x1="2.7" y1="1.427" x2="-2.7" y2="1.427" width="0.2032" layer="21"/>
+<wire x1="1.627" y1="-1.427" x2="-0.127" y2="-1.427" width="0.2032" layer="21"/>
+<smd name="1" x="-2.25" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
+<smd name="2" x="-0.75" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
+<smd name="3" x="2.25" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
+<smd name="GND1" x="-3.65" y="1" dx="1" dy="0.6" layer="1"/>
+<smd name="GND2" x="-3.65" y="-1.1" dx="1" dy="0.8" layer="1"/>
+<smd name="GND3" x="3.65" y="1" dx="1" dy="0.6" layer="1"/>
+<smd name="GND4" x="3.65" y="-1.1" dx="1" dy="0.8" layer="1"/>
+<hole x="-1.5" y="0" drill="0.9"/>
+<hole x="1.5" y="0" drill="0.9"/>
+<text x="0.762" y="-1.397" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;Name</text>
+<text x="0" y="1.397" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center">&gt;Value</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TOGGLE">
+<description>&lt;h3&gt;Single Pole, Double Throw (SPDT) Switch&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;</description>
+<wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.175" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0.2032" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0.2032" layer="94"/>
+<circle x="0" y="0" radius="0.3592" width="0.2032" layer="94"/>
+<text x="1.27" y="3.048" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="1.016" y="-3.302" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<pin name="P" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="S" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="O" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SWITCH-SPDT" prefix="S" uservalue="yes">
+<description>&lt;h3&gt;Single Pole, Double Throw (SPDT) Switch&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;h4&gt;Variant Overview&lt;/h4&gt;
+&lt;h5&gt;SMD-AYZ0202&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/597"&gt;Surface Mount DPDT Switch&lt;/a&gt; (COM-00597)&lt;/li&gt;
+&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/12049"&gt;LilyPad Arduino USB - ATmega32U4 Board&lt;/a&gt;
+&lt;/ul&gt;
+&lt;h5&gt;PTH-11.6X4.0MM&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/102"&gt;SPDT Mini Power Switch&lt;/a&gt; (COM-00102)&lt;/li&gt;
+&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/10547"&gt;SparkFun Simon Says - Through-Hole Soldering Kit&lt;/a&gt; (KIT-10547)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;PTH-11.6X4.0MM-KIT&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;KIT version of SPDT Mini Power Switch - Simplifies soldering by removing tStop of switch pins - only one side can be soldered.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;PTH-11.6X4.0MM-LOCK&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;LOCK version of SPDT Mini Power Switch - Offset pins hold switch in place for easier soldering.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;SMD-RIGHT-ANGLE&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10860"&gt;Surface Mount Right Angle Switch&lt;/a&gt; (COM-10860)&lt;/li&gt;
+&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/13231"&gt;SparkFun ESP8266 Thing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="1" symbol="TOGGLE" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="-PTH-11.6X4.0MM" package="SWITCH_SPDT_PTH_11.6X4.0MM">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08261"/>
+<attribute name="SF_SKU" value="COM-00102"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-AYZ0202" package="SWITCH_DPDT_SMD_AYZ0202">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08179" constant="no"/>
+<attribute name="SF_ID" value="COM-00597" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PTH-11.6X4.0MM-LOCK" package="SWITCH_SPDT_PTH_11.6X4.0MM_LOCK">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08261"/>
+<attribute name="SF_SKU" value="COM-00102 "/>
+</technology>
+</technologies>
+</device>
+<device name="-PTH-11.6X4.0MM-KIT" package="SWITCH_SPDT_PTH_11.6X4.0MM_KIT">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08261"/>
+<attribute name="SF_SKU" value="COM-00102"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-RIGHT-ANGLE" package="SWITCH_SPST_SMD_A">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-10651"/>
+<attribute name="SF_SKU" value="COM-10860"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="microbuilder">
+<description>&lt;h2&gt;&lt;b&gt;microBuilder.eu&lt;/b&gt; Eagle Footprint Library&lt;/h2&gt;
+
+&lt;p&gt;Footprints for common components used in our projects and products.  This is the same library that we use internally, and it is regularly updated.  The newest version can always be found at &lt;b&gt;www.microBuilder.eu&lt;/b&gt;.  If you find this library useful, please feel free to purchase something from our online store. Please also note that all holes are optimised for metric drill bits!&lt;/p&gt;
+
+&lt;h3&gt;Obligatory Warning&lt;/h3&gt;
+&lt;p&gt;While it probably goes without saying, there are no guarantees that the footprints or schematic symbols in this library are flawless, and we make no promises of fitness for production, prototyping or any other purpose. These libraries are provided for information puposes only, and are used at your own discretion.  While we make every effort to produce accurate footprints, and many of the items found in this library have be proven in production, we can't make any promises of suitability for a specific purpose. If you do find any errors, though, please feel free to contact us at www.microbuilder.eu to let us know about it so that we can update the library accordingly!&lt;/p&gt;
+
+&lt;h3&gt;License&lt;/h3&gt;
+&lt;p&gt;This work is placed in the public domain, and may be freely used for commercial and non-commercial work with the following conditions:&lt;/p&gt;
+&lt;p&gt;THIS SOFTWARE IS PROVIDED ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE INSTITUTE OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;/p&gt;</description>
+<packages>
+<package name="TSSOP14">
+<description>&lt;b&gt;Thin Shrink Small Outline Plastic 14&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-2.5146" y1="-2.2828" x2="2.5146" y2="-2.2828" width="0.2032" layer="51"/>
+<wire x1="2.5146" y1="2.2828" x2="2.5146" y2="-2.2828" width="0.2032" layer="21"/>
+<wire x1="2.5146" y1="2.2828" x2="-2.5146" y2="2.2828" width="0.2032" layer="51"/>
+<wire x1="-2.5146" y1="-2.2828" x2="-2.5146" y2="2.2828" width="0.2032" layer="21"/>
+<circle x="-1.6256" y="-1.2192" radius="0.4572" width="0.2032" layer="21"/>
+<smd name="1" x="-1.95" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="2" x="-1.3" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="3" x="-0.65" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="4" x="0" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="5" x="0.65" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="6" x="1.3" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="7" x="1.95" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="8" x="1.95" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="9" x="1.3" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="10" x="0.65" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="11" x="0" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="12" x="-0.65" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="13" x="-1.3" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="14" x="-1.95" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<text x="-2.8956" y="-2.0828" size="0.8128" layer="25" ratio="18" rot="R90">&gt;NAME</text>
+<text x="3.1242" y="-2.0828" size="0.4064" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.0516" y1="-3.121" x2="-1.8484" y2="-2.2828" layer="51"/>
+<rectangle x1="-1.4016" y1="-3.121" x2="-1.1984" y2="-2.2828" layer="51"/>
+<rectangle x1="-0.7516" y1="-3.121" x2="-0.5484" y2="-2.2828" layer="51"/>
+<rectangle x1="-0.1016" y1="-3.121" x2="0.1016" y2="-2.2828" layer="51"/>
+<rectangle x1="0.5484" y1="-3.121" x2="0.7516" y2="-2.2828" layer="51"/>
+<rectangle x1="1.1984" y1="-3.121" x2="1.4016" y2="-2.2828" layer="51"/>
+<rectangle x1="1.8484" y1="-3.121" x2="2.0516" y2="-2.2828" layer="51"/>
+<rectangle x1="1.8484" y1="2.2828" x2="2.0516" y2="3.121" layer="51"/>
+<rectangle x1="1.1984" y1="2.2828" x2="1.4016" y2="3.121" layer="51"/>
+<rectangle x1="0.5484" y1="2.2828" x2="0.7516" y2="3.121" layer="51"/>
+<rectangle x1="-0.1016" y1="2.2828" x2="0.1016" y2="3.121" layer="51"/>
+<rectangle x1="-0.7516" y1="2.2828" x2="-0.5484" y2="3.121" layer="51"/>
+<rectangle x1="-1.4016" y1="2.2828" x2="-1.1984" y2="3.121" layer="51"/>
+<rectangle x1="-2.0516" y1="2.2828" x2="-1.8484" y2="3.121" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MAX31856">
+<pin name="AGND" x="-12.7" y="7.62" length="short" direction="pwr"/>
+<pin name="BIAS" x="-12.7" y="5.08" length="short" direction="pwr"/>
+<pin name="T-" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="T+" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="AVDD" x="-12.7" y="-2.54" length="short" direction="pwr"/>
+<pin name="DNC" x="-12.7" y="-5.08" length="short" direction="nc"/>
+<pin name="!DRDY" x="-12.7" y="-7.62" length="short" direction="out"/>
+<pin name="DVDD" x="12.7" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="!CS" x="12.7" y="-5.08" length="short" direction="in" rot="R180"/>
+<pin name="SCK" x="12.7" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="SDO" x="12.7" y="0" length="short" direction="out" rot="R180"/>
+<pin name="SDI" x="12.7" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="!FAULT" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="DGND" x="12.7" y="7.62" length="short" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94" style="shortdash"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="0" y="12.7" size="1.27" layer="94" align="center">MAX31856
+Thermocouple</text>
+<text x="-8.89" y="-12.7" size="1.27" layer="94" align="center-left">VDD:
+Temp:</text>
+<text x="-1.27" y="-12.7" size="1.27" layer="94" align="center-left">3-3.6V
+-55~125°C</text>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-10.16" y="17.78" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-17.78" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MAX31856" uservalue="yes">
+<description>&lt;p&gt;&lt;b&gt;MAX31856&lt;/b&gt; - Thermocouple Sensor ADC&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX31856" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSSOP14">
+<connects>
+<connect gate="G$1" pin="!CS" pad="9"/>
+<connect gate="G$1" pin="!DRDY" pad="7"/>
+<connect gate="G$1" pin="!FAULT" pad="13"/>
+<connect gate="G$1" pin="AGND" pad="1"/>
+<connect gate="G$1" pin="AVDD" pad="5"/>
+<connect gate="G$1" pin="BIAS" pad="2"/>
+<connect gate="G$1" pin="DGND" pad="14"/>
+<connect gate="G$1" pin="DNC" pad="6"/>
+<connect gate="G$1" pin="DVDD" pad="8"/>
+<connect gate="G$1" pin="SCK" pad="10"/>
+<connect gate="G$1" pin="SDI" pad="12"/>
+<connect gate="G$1" pin="SDO" pad="11"/>
+<connect gate="G$1" pin="T+" pad="4"/>
+<connect gate="G$1" pin="T-" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16363,7 +16630,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100n"/>
 <part name="GND28" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="0"/>
-<part name="S1" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="M251" device="" package3d_urn="urn:adsk.eagle:package:27680/1"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10u"/>
 <part name="GND29" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET_PCH" device="-DMG2307L" value="2.5A/30V/105mΩ"/>
@@ -16389,7 +16655,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R31" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="30.1k"/>
 <part name="GND36" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R32" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.5k"/>
-<part name="R33" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="0"/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
 <part name="R_THERM" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2" value="103AT"/>
 <part name="R34" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100k"/>
@@ -16412,6 +16677,41 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="S2" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-SMD-AYZ0202"/>
+<part name="TC0" library="microbuilder" deviceset="MAX31856" device="" value="MAX31856"/>
+<part name="C10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100nF"/>
+<part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND23" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND38" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="C24" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100nF"/>
+<part name="C25" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10nF"/>
+<part name="C26" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10nF"/>
+<part name="R22" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100"/>
+<part name="R33" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100"/>
+<part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="TCIN0" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="GND41" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND42" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="C27" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100nF"/>
+<part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="TC1" library="microbuilder" deviceset="MAX31856" device="" value="MAX31856"/>
+<part name="C28" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100nF"/>
+<part name="GND43" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND44" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND45" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND46" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="C29" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100nF"/>
+<part name="C30" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10nF"/>
+<part name="C31" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10nF"/>
+<part name="R36" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100"/>
+<part name="R37" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100"/>
+<part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="TCIN1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="GND47" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND48" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="C32" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100nF"/>
+<part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16482,6 +16782,40 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R6" gate="G$1" x="96.52" y="205.74" rot="R270"/>
 <instance part="SUPPLY4" gate="G$1" x="96.52" y="213.36"/>
 <instance part="SUPPLY8" gate="G$1" x="210.82" y="142.24"/>
+<instance part="TC0" gate="G$1" x="528.32" y="154.94"/>
+<instance part="C10" gate="G$1" x="495.3" y="157.48"/>
+<instance part="GND20" gate="1" x="513.08" y="167.64" rot="R180"/>
+<instance part="GND22" gate="1" x="505.46" y="132.08"/>
+<instance part="GND23" gate="1" x="495.3" y="134.62"/>
+<instance part="GND38" gate="1" x="487.68" y="172.72"/>
+<instance part="C24" gate="G$1" x="505.46" y="142.24"/>
+<instance part="C25" gate="G$1" x="495.3" y="144.78"/>
+<instance part="C26" gate="G$1" x="495.3" y="170.18"/>
+<instance part="R22" gate="G$1" x="487.68" y="149.86"/>
+<instance part="R33" gate="G$1" x="487.68" y="162.56"/>
+<instance part="SUPPLY10" gate="G$1" x="505.46" y="149.86"/>
+<instance part="TCIN0" gate="G$1" x="469.9" y="157.48" rot="R180"/>
+<instance part="GND41" gate="1" x="543.56" y="167.64" rot="R180"/>
+<instance part="GND42" gate="1" x="551.18" y="124.46"/>
+<instance part="C27" gate="G$1" x="551.18" y="134.62"/>
+<instance part="SUPPLY11" gate="G$1" x="551.18" y="142.24"/>
+<instance part="TC1" gate="G$1" x="528.32" y="223.52"/>
+<instance part="C28" gate="G$1" x="495.3" y="226.06"/>
+<instance part="GND43" gate="1" x="513.08" y="236.22" rot="R180"/>
+<instance part="GND44" gate="1" x="505.46" y="200.66"/>
+<instance part="GND45" gate="1" x="495.3" y="203.2"/>
+<instance part="GND46" gate="1" x="487.68" y="241.3"/>
+<instance part="C29" gate="G$1" x="505.46" y="210.82"/>
+<instance part="C30" gate="G$1" x="495.3" y="213.36"/>
+<instance part="C31" gate="G$1" x="495.3" y="238.76"/>
+<instance part="R36" gate="G$1" x="487.68" y="218.44"/>
+<instance part="R37" gate="G$1" x="487.68" y="231.14"/>
+<instance part="SUPPLY13" gate="G$1" x="505.46" y="218.44"/>
+<instance part="TCIN1" gate="G$1" x="469.9" y="226.06" rot="R180"/>
+<instance part="GND47" gate="1" x="543.56" y="236.22" rot="R180"/>
+<instance part="GND48" gate="1" x="551.18" y="193.04"/>
+<instance part="C32" gate="G$1" x="551.18" y="203.2"/>
+<instance part="SUPPLY17" gate="G$1" x="551.18" y="210.82"/>
 </instances>
 <busses>
 </busses>
@@ -16496,11 +16830,6 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="401.32" y="83.82"/>
 <label x="403.86" y="83.82" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="SAMD21G18A" gate="G$1" pin="PA09(I2C/AIN17/SER0:1+)"/>
-<wire x1="203.2" y1="121.92" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
-<label x="205.74" y="121.92" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="AIN4" class="0">
 <segment>
@@ -16512,11 +16841,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R25" gate="G$1" pin="2"/>
 <label x="426.72" y="83.82" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="SAMD21G18A" gate="G$1" pin="PA08(I2C/AIN16/SER0:0+)"/>
-<wire x1="203.2" y1="124.46" x2="220.98" y2="124.46" width="0.1524" layer="91"/>
-<label x="205.74" y="124.46" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="AIN2" class="0">
 <segment>
@@ -16527,11 +16851,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="378.46" y1="83.82" x2="386.08" y2="83.82" width="0.1524" layer="91"/>
 <junction x="378.46" y="83.82"/>
 <label x="381" y="83.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SAMD21G18A" gate="G$1" pin="PA10(AIN18/SER0:2+)"/>
-<wire x1="203.2" y1="119.38" x2="220.98" y2="119.38" width="0.1524" layer="91"/>
-<label x="205.74" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -16614,6 +16933,48 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="210.82" y1="132.08" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
 <junction x="210.82" y="132.08"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="C24" gate="G$1" pin="1"/>
+<pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
+<wire x1="505.46" y1="144.78" x2="505.46" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="TC0" gate="G$1" pin="AVDD"/>
+<wire x1="505.46" y1="147.32" x2="505.46" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="152.4" x2="510.54" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="152.4" x2="510.54" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="147.32" x2="505.46" y2="147.32" width="0.1524" layer="91"/>
+<junction x="505.46" y="147.32"/>
+</segment>
+<segment>
+<pinref part="C29" gate="G$1" pin="1"/>
+<pinref part="SUPPLY13" gate="G$1" pin="3.3V"/>
+<wire x1="505.46" y1="213.36" x2="505.46" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="TC1" gate="G$1" pin="AVDD"/>
+<wire x1="505.46" y1="215.9" x2="505.46" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="220.98" x2="510.54" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="220.98" x2="510.54" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="215.9" x2="505.46" y2="215.9" width="0.1524" layer="91"/>
+<junction x="505.46" y="215.9"/>
+</segment>
+<segment>
+<wire x1="551.18" y1="208.28" x2="551.18" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="TC1" gate="G$1" pin="DVDD"/>
+<wire x1="541.02" y1="215.9" x2="543.56" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="543.56" y1="215.9" x2="543.56" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="543.56" y1="208.28" x2="551.18" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="C32" gate="G$1" pin="1"/>
+<wire x1="551.18" y1="205.74" x2="551.18" y2="208.28" width="0.1524" layer="91"/>
+<junction x="551.18" y="208.28"/>
+</segment>
+<segment>
+<wire x1="551.18" y1="139.7" x2="551.18" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="TC0" gate="G$1" pin="DVDD"/>
+<wire x1="541.02" y1="147.32" x2="543.56" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="543.56" y1="147.32" x2="543.56" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="543.56" y1="139.7" x2="551.18" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="551.18" y1="137.16" x2="551.18" y2="139.7" width="0.1524" layer="91"/>
+<junction x="551.18" y="139.7"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -16788,6 +17149,74 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="403.86" y1="182.88" x2="403.86" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="TC0" gate="G$1" pin="AGND"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="515.62" y1="162.56" x2="513.08" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="513.08" y1="162.56" x2="513.08" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C26" gate="G$1" pin="1"/>
+<wire x1="495.3" y1="172.72" x2="495.3" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="GND38" gate="1" pin="GND"/>
+<wire x1="495.3" y1="177.8" x2="487.68" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="487.68" y1="177.8" x2="487.68" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND23" gate="1" pin="GND"/>
+<pinref part="C25" gate="G$1" pin="2"/>
+<wire x1="495.3" y1="137.16" x2="495.3" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND22" gate="1" pin="GND"/>
+<pinref part="C24" gate="G$1" pin="2"/>
+<wire x1="505.46" y1="134.62" x2="505.46" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="TC0" gate="G$1" pin="DGND"/>
+<wire x1="541.02" y1="162.56" x2="543.56" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="543.56" y1="162.56" x2="543.56" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="GND41" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="TC1" gate="G$1" pin="AGND"/>
+<pinref part="GND43" gate="1" pin="GND"/>
+<wire x1="515.62" y1="231.14" x2="513.08" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="513.08" y1="231.14" x2="513.08" y2="233.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C31" gate="G$1" pin="1"/>
+<wire x1="495.3" y1="241.3" x2="495.3" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="GND46" gate="1" pin="GND"/>
+<wire x1="495.3" y1="246.38" x2="487.68" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="487.68" y1="246.38" x2="487.68" y2="243.84" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND45" gate="1" pin="GND"/>
+<pinref part="C30" gate="G$1" pin="2"/>
+<wire x1="495.3" y1="205.74" x2="495.3" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND44" gate="1" pin="GND"/>
+<pinref part="C29" gate="G$1" pin="2"/>
+<wire x1="505.46" y1="203.2" x2="505.46" y2="205.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="TC1" gate="G$1" pin="DGND"/>
+<wire x1="541.02" y1="231.14" x2="543.56" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="543.56" y1="231.14" x2="543.56" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="GND47" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C27" gate="G$1" pin="2"/>
+<pinref part="GND42" gate="1" pin="GND"/>
+<wire x1="551.18" y1="129.54" x2="551.18" y2="127" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND48" gate="1" pin="GND"/>
+<pinref part="C32" gate="G$1" pin="2"/>
+<wire x1="551.18" y1="195.58" x2="551.18" y2="198.12" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VDDCORE" class="0">
 <segment>
@@ -16808,11 +17237,6 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="332.74" y="83.82"/>
 <label x="335.28" y="83.82" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="SAMD21G18A" gate="G$1" pin="PA07(AIN7/SER0:3/TC1:1)"/>
-<wire x1="134.62" y1="83.82" x2="114.3" y2="83.82" width="0.1524" layer="91"/>
-<label x="114.3" y="83.82" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="AIN1" class="0">
 <segment>
@@ -16823,11 +17247,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="355.6" y1="83.82" x2="363.22" y2="83.82" width="0.1524" layer="91"/>
 <junction x="355.6" y="83.82"/>
 <label x="358.14" y="83.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SAMD21G18A" gate="G$1" pin="PA11(AIN19/SER0:3+)"/>
-<wire x1="203.2" y1="116.84" x2="220.98" y2="116.84" width="0.1524" layer="91"/>
-<label x="205.74" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -16922,6 +17341,16 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="134.62" y1="76.2" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
 <label x="114.3" y="76.2" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="TC0" gate="G$1" pin="SDI"/>
+<wire x1="541.02" y1="157.48" x2="553.72" y2="157.48" width="0.1524" layer="91"/>
+<label x="543.56" y="157.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TC1" gate="G$1" pin="SDI"/>
+<wire x1="541.02" y1="226.06" x2="553.72" y2="226.06" width="0.1524" layer="91"/>
+<label x="543.56" y="226.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PB09D_SER4_P1" class="0">
 <segment>
@@ -16934,6 +17363,16 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="134.62" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
 <label x="114.3" y="73.66" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="TC0" gate="G$1" pin="SCK"/>
+<wire x1="541.02" y1="152.4" x2="553.72" y2="152.4" width="0.1524" layer="91"/>
+<label x="543.56" y="152.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TC1" gate="G$1" pin="SCK"/>
+<wire x1="541.02" y1="220.98" x2="553.72" y2="220.98" width="0.1524" layer="91"/>
+<label x="543.56" y="220.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PB11D_SER4_P3" class="0">
 <segment>
@@ -16945,6 +17384,16 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="SAMD21G18A" gate="G$1" pin="PB11(SER4:3+)"/>
 <wire x1="203.2" y1="63.5" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
 <label x="205.74" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TC0" gate="G$1" pin="SDO"/>
+<wire x1="541.02" y1="154.94" x2="553.72" y2="154.94" width="0.1524" layer="91"/>
+<label x="543.56" y="154.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TC1" gate="G$1" pin="SDO"/>
+<wire x1="541.02" y1="223.52" x2="553.72" y2="223.52" width="0.1524" layer="91"/>
+<label x="543.56" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA14_PORT" class="0">
@@ -17046,11 +17495,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="391.16" y1="142.24" x2="368.3" y2="142.24" width="0.1524" layer="91"/>
 <label x="368.3" y="142.24" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="SAMD21G18A" gate="G$1" pin="PA20(SER5:2+)"/>
-<wire x1="203.2" y1="93.98" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
-<label x="205.74" y="93.98" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="GPIO2" class="0">
 <segment>
@@ -17058,22 +17502,12 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="391.16" y1="139.7" x2="368.3" y2="139.7" width="0.1524" layer="91"/>
 <label x="368.3" y="139.7" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="SAMD21G18A" gate="G$1" pin="PA23(I2C/SER3:0+)"/>
-<wire x1="203.2" y1="86.36" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
-<label x="205.74" y="86.36" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="GPIO3" class="0">
 <segment>
 <pinref part="GPIO" gate="A" pin="3"/>
 <wire x1="391.16" y1="137.16" x2="368.3" y2="137.16" width="0.1524" layer="91"/>
 <label x="368.3" y="137.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SAMD21G18A" gate="G$1" pin="PA18(SER1:2+)"/>
-<wire x1="203.2" y1="99.06" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
-<label x="205.74" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VSYS" class="0">
@@ -17137,6 +17571,158 @@ Source: AVX .. aphvc.pdf</description>
 <label x="233.68" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="TC0" gate="G$1" pin="T-"/>
+<wire x1="515.62" y1="157.48" x2="502.92" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="502.92" y1="157.48" x2="502.92" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="502.92" y1="162.56" x2="495.3" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="R33" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="495.3" y1="162.56" x2="492.76" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="495.3" y1="160.02" x2="495.3" y2="162.56" width="0.1524" layer="91"/>
+<junction x="495.3" y="162.56"/>
+<pinref part="C26" gate="G$1" pin="2"/>
+<wire x1="495.3" y1="162.56" x2="495.3" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="TC0" gate="G$1" pin="T+"/>
+<wire x1="515.62" y1="154.94" x2="502.92" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="502.92" y1="154.94" x2="502.92" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="502.92" y1="149.86" x2="495.3" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="495.3" y1="149.86" x2="492.76" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="495.3" y1="152.4" x2="495.3" y2="149.86" width="0.1524" layer="91"/>
+<junction x="495.3" y="149.86"/>
+<pinref part="C25" gate="G$1" pin="1"/>
+<wire x1="495.3" y1="147.32" x2="495.3" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="TC0" gate="G$1" pin="BIAS"/>
+<wire x1="515.62" y1="160.02" x2="505.46" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="505.46" y1="160.02" x2="505.46" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="505.46" y1="180.34" x2="480.06" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="480.06" y1="180.34" x2="480.06" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="R33" gate="G$1" pin="1"/>
+<wire x1="480.06" y1="162.56" x2="482.6" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="480.06" y1="162.56" x2="480.06" y2="157.48" width="0.1524" layer="91"/>
+<junction x="480.06" y="162.56"/>
+<wire x1="480.06" y1="157.48" x2="472.44" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="TCIN0" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="R22" gate="G$1" pin="1"/>
+<wire x1="482.6" y1="149.86" x2="480.06" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="480.06" y1="149.86" x2="480.06" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="480.06" y1="154.94" x2="472.44" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="TCIN0" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="TC1_DRDY" class="0">
+<segment>
+<pinref part="TC1" gate="G$1" pin="!DRDY"/>
+<wire x1="515.62" y1="215.9" x2="513.08" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="513.08" y1="215.9" x2="513.08" y2="193.04" width="0.1524" layer="91"/>
+<label x="513.08" y="193.04" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="TC0_FAULT" class="0">
+<segment>
+<pinref part="TC0" gate="G$1" pin="!FAULT"/>
+<wire x1="541.02" y1="160.02" x2="553.72" y2="160.02" width="0.1524" layer="91"/>
+<label x="543.56" y="160.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TC0_CS" class="0">
+<segment>
+<pinref part="TC0" gate="G$1" pin="!CS"/>
+<wire x1="541.02" y1="149.86" x2="553.72" y2="149.86" width="0.1524" layer="91"/>
+<label x="543.56" y="149.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="TC1" gate="G$1" pin="T-"/>
+<wire x1="515.62" y1="226.06" x2="502.92" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="502.92" y1="226.06" x2="502.92" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="502.92" y1="231.14" x2="495.3" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="R37" gate="G$1" pin="2"/>
+<pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="495.3" y1="231.14" x2="492.76" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="495.3" y1="228.6" x2="495.3" y2="231.14" width="0.1524" layer="91"/>
+<junction x="495.3" y="231.14"/>
+<pinref part="C31" gate="G$1" pin="2"/>
+<wire x1="495.3" y1="231.14" x2="495.3" y2="233.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="TC1" gate="G$1" pin="T+"/>
+<wire x1="515.62" y1="223.52" x2="502.92" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="502.92" y1="223.52" x2="502.92" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="502.92" y1="218.44" x2="495.3" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="R36" gate="G$1" pin="2"/>
+<pinref part="C28" gate="G$1" pin="2"/>
+<wire x1="495.3" y1="218.44" x2="492.76" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="495.3" y1="220.98" x2="495.3" y2="218.44" width="0.1524" layer="91"/>
+<junction x="495.3" y="218.44"/>
+<pinref part="C30" gate="G$1" pin="1"/>
+<wire x1="495.3" y1="215.9" x2="495.3" y2="218.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="TC1" gate="G$1" pin="BIAS"/>
+<wire x1="515.62" y1="228.6" x2="505.46" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="505.46" y1="228.6" x2="505.46" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="505.46" y1="248.92" x2="480.06" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="480.06" y1="248.92" x2="480.06" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="R37" gate="G$1" pin="1"/>
+<wire x1="480.06" y1="231.14" x2="482.6" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="480.06" y1="231.14" x2="480.06" y2="226.06" width="0.1524" layer="91"/>
+<junction x="480.06" y="231.14"/>
+<wire x1="480.06" y1="226.06" x2="472.44" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="TCIN1" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="R36" gate="G$1" pin="1"/>
+<wire x1="482.6" y1="218.44" x2="480.06" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="480.06" y1="218.44" x2="480.06" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="480.06" y1="223.52" x2="472.44" y2="223.52" width="0.1524" layer="91"/>
+<pinref part="TCIN1" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="TC1_FAULT" class="0">
+<segment>
+<pinref part="TC1" gate="G$1" pin="!FAULT"/>
+<wire x1="541.02" y1="228.6" x2="553.72" y2="228.6" width="0.1524" layer="91"/>
+<label x="543.56" y="228.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TC1_CS" class="0">
+<segment>
+<pinref part="TC1" gate="G$1" pin="!CS"/>
+<wire x1="541.02" y1="218.44" x2="553.72" y2="218.44" width="0.1524" layer="91"/>
+<label x="543.56" y="218.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TC0_DRDY" class="0">
+<segment>
+<pinref part="TC0" gate="G$1" pin="!DRDY"/>
+<wire x1="515.62" y1="147.32" x2="513.08" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="513.08" y1="147.32" x2="513.08" y2="124.46" width="0.1524" layer="91"/>
+<label x="513.08" y="124.46" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -17176,7 +17762,6 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="C14" gate="G$1" x="449.58" y="99.06" rot="R90"/>
 <instance part="GND28" gate="1" x="459.74" y="99.06" rot="R90"/>
 <instance part="R23" gate="G$1" x="454.66" y="109.22" rot="R180"/>
-<instance part="S1" gate="1" x="462.28" y="116.84"/>
 <instance part="C15" gate="G$1" x="469.9" y="109.22" rot="R90"/>
 <instance part="GND29" gate="1" x="480.06" y="109.22" rot="R90"/>
 <instance part="Q3" gate="G$1" x="467.36" y="78.74" rot="R180"/>
@@ -17202,7 +17787,6 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R31" gate="G$1" x="264.16" y="-5.08" rot="R270"/>
 <instance part="GND36" gate="1" x="264.16" y="-15.24"/>
 <instance part="R32" gate="G$1" x="248.92" y="25.4" rot="R90"/>
-<instance part="R33" gate="G$1" x="264.16" y="25.4" rot="R90"/>
 <instance part="LED1" gate="G$1" x="248.92" y="35.56" rot="R180"/>
 <instance part="R_THERM" gate="G$1" x="289.56" y="-7.62"/>
 <instance part="R34" gate="G$1" x="281.94" y="25.4" rot="R90"/>
@@ -17212,6 +17796,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="GND39" gate="1" x="342.9" y="2.54"/>
 <instance part="C23" gate="G$1" x="365.76" y="12.7"/>
 <instance part="GND40" gate="1" x="365.76" y="2.54"/>
+<instance part="S2" gate="1" x="464.82" y="114.3" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -17379,10 +17964,10 @@ Source: AVX .. aphvc.pdf</description>
 <label x="45.72" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="467.36" y1="124.46" x2="474.98" y2="124.46" width="0.1524" layer="91"/>
-<label x="467.36" y="124.46" size="1.778" layer="95"/>
-<pinref part="S1" gate="1" pin="S"/>
-<wire x1="467.36" y1="121.92" x2="467.36" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="121.92" x2="474.98" y2="121.92" width="0.1524" layer="91"/>
+<label x="462.28" y="121.92" size="1.778" layer="95"/>
+<pinref part="S2" gate="1" pin="O"/>
+<wire x1="462.28" y1="119.38" x2="462.28" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -17432,18 +18017,6 @@ Source: AVX .. aphvc.pdf</description>
 <label x="246.38" y="2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="PC_CELL" class="0">
-<segment>
-<pinref part="POWER_CONTROLLER" gate="A" pin="CELL"/>
-<wire x1="299.72" y1="83.82" x2="312.42" y2="83.82" width="0.1524" layer="91"/>
-<label x="302.26" y="83.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="264.16" y1="30.48" x2="264.16" y2="33.02" width="0.1524" layer="91"/>
-<label x="264.16" y="33.02" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
 <net name="PC_SW" class="0">
 <segment>
 <pinref part="POWER_CONTROLLER" gate="A" pin="SW"/>
@@ -17489,8 +18062,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="467.36" y1="91.44" x2="464.82" y2="91.44" width="0.1524" layer="91"/>
 <junction x="464.82" y="91.44"/>
 <pinref part="Q3" gate="G$1" pin="S"/>
-<pinref part="S1" gate="1" pin="P"/>
 <wire x1="464.82" y1="109.22" x2="464.82" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="S2" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="PC_VREF" class="0">
@@ -17513,12 +18086,16 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="248.92" y1="17.78" x2="248.92" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="17.78" x2="264.16" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="R32" gate="G$1" pin="1"/>
-<pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="17.78" x2="281.94" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="17.78" x2="294.64" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="17.78" x2="281.94" y2="20.32" width="0.1524" layer="91"/>
 <junction x="281.94" y="17.78"/>
+</segment>
+<segment>
+<pinref part="POWER_CONTROLLER" gate="A" pin="CELL"/>
+<wire x1="299.72" y1="83.82" x2="312.42" y2="83.82" width="0.1524" layer="91"/>
+<label x="302.26" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PC_BTST" class="0">
@@ -17867,6 +18444,10 @@ Source: AVX .. aphvc.pdf</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
