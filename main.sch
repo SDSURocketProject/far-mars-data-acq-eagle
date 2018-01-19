@@ -16712,6 +16712,12 @@ Temp:</text>
 <part name="GND48" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C32" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100nF"/>
 <part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="R38" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1k"/>
+<part name="R39" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1k"/>
+<part name="SUPPLY18" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="GND49" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="R40" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
+<part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16816,6 +16822,12 @@ Temp:</text>
 <instance part="GND48" gate="1" x="551.18" y="193.04"/>
 <instance part="C32" gate="G$1" x="551.18" y="203.2"/>
 <instance part="SUPPLY17" gate="G$1" x="551.18" y="210.82"/>
+<instance part="R38" gate="G$1" x="137.16" y="215.9" rot="R270"/>
+<instance part="R39" gate="G$1" x="127" y="215.9" rot="R270"/>
+<instance part="SUPPLY18" gate="G$1" x="132.08" y="226.06"/>
+<instance part="GND49" gate="1" x="304.8" y="147.32"/>
+<instance part="R40" gate="G$1" x="304.8" y="165.1" rot="R90"/>
+<instance part="SUPPLY19" gate="G$1" x="304.8" y="172.72"/>
 </instances>
 <busses>
 </busses>
@@ -16830,6 +16842,11 @@ Temp:</text>
 <junction x="401.32" y="83.82"/>
 <label x="403.86" y="83.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA08(I2C/AIN16/SER0:0+)"/>
+<wire x1="203.2" y1="124.46" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
+<label x="205.74" y="124.46" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="AIN4" class="0">
 <segment>
@@ -16841,6 +16858,11 @@ Temp:</text>
 <pinref part="R25" gate="G$1" pin="2"/>
 <label x="426.72" y="83.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA07(AIN7/SER0:3/TC1:1)"/>
+<wire x1="134.62" y1="83.82" x2="114.3" y2="83.82" width="0.1524" layer="91"/>
+<label x="114.3" y="83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="AIN2" class="0">
 <segment>
@@ -16851,6 +16873,11 @@ Temp:</text>
 <wire x1="378.46" y1="83.82" x2="386.08" y2="83.82" width="0.1524" layer="91"/>
 <junction x="378.46" y="83.82"/>
 <label x="381" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA09(I2C/AIN17/SER0:1+)"/>
+<wire x1="203.2" y1="121.92" x2="218.44" y2="121.92" width="0.1524" layer="91"/>
+<label x="205.74" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -16975,6 +17002,22 @@ Temp:</text>
 <pinref part="C27" gate="G$1" pin="1"/>
 <wire x1="551.18" y1="137.16" x2="551.18" y2="139.7" width="0.1524" layer="91"/>
 <junction x="551.18" y="139.7"/>
+</segment>
+<segment>
+<pinref part="R39" gate="G$1" pin="1"/>
+<wire x1="127" y1="220.98" x2="127" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="127" y1="223.52" x2="132.08" y2="223.52" width="0.1524" layer="91"/>
+<pinref part="R38" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="223.52" x2="137.16" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="223.52" x2="137.16" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="223.52" x2="132.08" y2="226.06" width="0.1524" layer="91"/>
+<junction x="132.08" y="223.52"/>
+<pinref part="SUPPLY18" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="SUPPLY19" gate="G$1" pin="3.3V"/>
+<pinref part="R40" gate="G$1" pin="2"/>
+<wire x1="304.8" y1="172.72" x2="304.8" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -17217,6 +17260,12 @@ Temp:</text>
 <pinref part="C32" gate="G$1" pin="2"/>
 <wire x1="551.18" y1="195.58" x2="551.18" y2="198.12" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="304.8" y1="152.4" x2="304.8" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="GND49" gate="1" pin="GND"/>
+<pinref part="SER4" gate="1" pin="CD2"/>
+<wire x1="294.64" y1="152.4" x2="304.8" y2="152.4" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VDDCORE" class="0">
 <segment>
@@ -17237,6 +17286,11 @@ Temp:</text>
 <junction x="332.74" y="83.82"/>
 <label x="335.28" y="83.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA11(AIN19/SER0:3+)"/>
+<wire x1="203.2" y1="116.84" x2="218.44" y2="116.84" width="0.1524" layer="91"/>
+<label x="205.74" y="116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="AIN1" class="0">
 <segment>
@@ -17247,6 +17301,11 @@ Temp:</text>
 <wire x1="355.6" y1="83.82" x2="363.22" y2="83.82" width="0.1524" layer="91"/>
 <junction x="355.6" y="83.82"/>
 <label x="358.14" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA10(AIN18/SER0:2+)"/>
+<wire x1="203.2" y1="119.38" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
+<label x="205.74" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -17398,15 +17457,11 @@ Temp:</text>
 </net>
 <net name="PA14_PORT" class="0">
 <segment>
-<pinref part="SER4" gate="1" pin="CD2"/>
-<wire x1="294.64" y1="152.4" x2="297.18" y2="152.4" width="0.1524" layer="91"/>
+<label x="294.64" y="157.48" size="1.778" layer="95"/>
+<pinref part="R40" gate="G$1" pin="1"/>
+<wire x1="304.8" y1="160.02" x2="304.8" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="SER4" gate="1" pin="CD1"/>
-<wire x1="297.18" y1="152.4" x2="297.18" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="154.94" x2="297.18" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="157.48" x2="294.64" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="154.94" x2="314.96" y2="154.94" width="0.1524" layer="91"/>
-<junction x="297.18" y="154.94"/>
-<label x="302.26" y="154.94" size="1.778" layer="95"/>
+<wire x1="304.8" y1="157.48" x2="294.64" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SAMD21G18A" gate="G$1" pin="PA14(XIN/SER2:2+)"/>
@@ -17535,6 +17590,8 @@ Temp:</text>
 <pinref part="IMU" gate="G$1" pin="COM0"/>
 <wire x1="154.94" y1="190.5" x2="137.16" y2="190.5" width="0.1524" layer="91"/>
 <label x="137.16" y="190.5" size="1.778" layer="95"/>
+<wire x1="137.16" y1="190.5" x2="137.16" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="R38" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="PA17_SER1_I2C_SCL" class="0">
@@ -17545,8 +17602,10 @@ Temp:</text>
 </segment>
 <segment>
 <pinref part="IMU" gate="G$1" pin="COM1"/>
-<wire x1="154.94" y1="187.96" x2="137.16" y2="187.96" width="0.1524" layer="91"/>
 <label x="137.16" y="187.96" size="1.778" layer="95"/>
+<wire x1="154.94" y1="187.96" x2="127" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="127" y1="187.96" x2="127" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="R39" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$18" class="0">
