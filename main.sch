@@ -16984,7 +16984,6 @@ Temp:</text>
 <junction x="505.46" y="215.9"/>
 </segment>
 <segment>
-<wire x1="551.18" y1="208.28" x2="551.18" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="TC1" gate="G$1" pin="DVDD"/>
 <wire x1="541.02" y1="215.9" x2="543.56" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="543.56" y1="215.9" x2="543.56" y2="208.28" width="0.1524" layer="91"/>
@@ -16992,15 +16991,18 @@ Temp:</text>
 <pinref part="C32" gate="G$1" pin="1"/>
 <wire x1="551.18" y1="205.74" x2="551.18" y2="208.28" width="0.1524" layer="91"/>
 <junction x="551.18" y="208.28"/>
+<pinref part="SUPPLY17" gate="G$1" pin="3.3V"/>
+<wire x1="551.18" y1="208.28" x2="551.18" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="551.18" y1="139.7" x2="551.18" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="TC0" gate="G$1" pin="DVDD"/>
 <wire x1="541.02" y1="147.32" x2="543.56" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="543.56" y1="147.32" x2="543.56" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="543.56" y1="139.7" x2="551.18" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
+<wire x1="551.18" y1="139.7" x2="551.18" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="C27" gate="G$1" pin="1"/>
-<wire x1="551.18" y1="137.16" x2="551.18" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="551.18" y1="139.7" x2="551.18" y2="137.16" width="0.1524" layer="91"/>
 <junction x="551.18" y="139.7"/>
 </segment>
 <segment>
@@ -17377,24 +17379,19 @@ Temp:</text>
 <wire x1="424.18" y1="114.3" x2="426.72" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PA15_PORT" class="0">
+<net name="SD_CS" class="0">
 <segment>
 <pinref part="SER4" gate="1" pin="!CS"/>
 <wire x1="261.62" y1="165.1" x2="243.84" y2="165.1" width="0.1524" layer="91"/>
 <label x="243.84" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SAMD21G18A" gate="G$1" pin="PA15(XOUT/SER2:3+)"/>
-<wire x1="203.2" y1="106.68" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
-<label x="205.74" y="106.68" size="1.778" layer="95"/>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA00(XIN32/SER1:0/TC2:0)"/>
+<wire x1="134.62" y1="104.14" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
+<label x="114.3" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB08D_SER4_P0" class="0">
-<segment>
-<pinref part="SER4" gate="1" pin="DI"/>
-<wire x1="261.62" y1="162.56" x2="243.84" y2="162.56" width="0.1524" layer="91"/>
-<label x="243.84" y="162.56" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="SAMD21G18A" gate="G$1" pin="PB08(AIN2/SER4:0/TC4:0)"/>
 <wire x1="134.62" y1="76.2" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
@@ -17410,13 +17407,13 @@ Temp:</text>
 <wire x1="541.02" y1="226.06" x2="553.72" y2="226.06" width="0.1524" layer="91"/>
 <label x="543.56" y="226.06" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SER4" gate="1" pin="DI"/>
+<wire x1="261.62" y1="162.56" x2="243.84" y2="162.56" width="0.1524" layer="91"/>
+<label x="243.84" y="162.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PB09D_SER4_P1" class="0">
-<segment>
-<pinref part="SER4" gate="1" pin="SCK"/>
-<wire x1="261.62" y1="160.02" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
-<label x="243.84" y="160.02" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="SAMD21G18A" gate="G$1" pin="PB09(AIN3/SER4:1/TC4:1)"/>
 <wire x1="134.62" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
@@ -17432,13 +17429,13 @@ Temp:</text>
 <wire x1="541.02" y1="220.98" x2="553.72" y2="220.98" width="0.1524" layer="91"/>
 <label x="543.56" y="220.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SER4" gate="1" pin="SCK"/>
+<wire x1="261.62" y1="160.02" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
+<label x="243.84" y="160.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PB11D_SER4_P3" class="0">
-<segment>
-<pinref part="SER4" gate="1" pin="DO"/>
-<wire x1="261.62" y1="157.48" x2="243.84" y2="157.48" width="0.1524" layer="91"/>
-<label x="243.84" y="157.48" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="SAMD21G18A" gate="G$1" pin="PB11(SER4:3+)"/>
 <wire x1="203.2" y1="63.5" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
@@ -17454,19 +17451,10 @@ Temp:</text>
 <wire x1="541.02" y1="223.52" x2="553.72" y2="223.52" width="0.1524" layer="91"/>
 <label x="543.56" y="223.52" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="PA14_PORT" class="0">
 <segment>
-<label x="294.64" y="157.48" size="1.778" layer="95"/>
-<pinref part="R40" gate="G$1" pin="1"/>
-<wire x1="304.8" y1="160.02" x2="304.8" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="SER4" gate="1" pin="CD1"/>
-<wire x1="304.8" y1="157.48" x2="294.64" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SAMD21G18A" gate="G$1" pin="PA14(XIN/SER2:2+)"/>
-<wire x1="203.2" y1="109.22" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
-<label x="205.74" y="109.22" size="1.778" layer="95"/>
+<pinref part="SER4" gate="1" pin="DO"/>
+<wire x1="261.62" y1="157.48" x2="243.84" y2="157.48" width="0.1524" layer="91"/>
+<label x="243.84" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -17550,6 +17538,11 @@ Temp:</text>
 <wire x1="391.16" y1="142.24" x2="368.3" y2="142.24" width="0.1524" layer="91"/>
 <label x="368.3" y="142.24" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA15(XOUT/SER2:3+)"/>
+<wire x1="203.2" y1="106.68" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
+<label x="205.74" y="106.68" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO2" class="0">
 <segment>
@@ -17557,12 +17550,22 @@ Temp:</text>
 <wire x1="391.16" y1="139.7" x2="368.3" y2="139.7" width="0.1524" layer="91"/>
 <label x="368.3" y="139.7" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA13(I2C/SER2:1+)"/>
+<wire x1="203.2" y1="111.76" x2="220.98" y2="111.76" width="0.1524" layer="91"/>
+<label x="205.74" y="111.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO3" class="0">
 <segment>
 <pinref part="GPIO" gate="A" pin="3"/>
 <wire x1="391.16" y1="137.16" x2="368.3" y2="137.16" width="0.1524" layer="91"/>
 <label x="368.3" y="137.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PB10(SER4:2+)"/>
+<wire x1="203.2" y1="66.04" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
+<label x="205.74" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VSYS" class="0">
@@ -17691,6 +17694,11 @@ Temp:</text>
 <wire x1="513.08" y1="215.9" x2="513.08" y2="193.04" width="0.1524" layer="91"/>
 <label x="513.08" y="193.04" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA24(SER3:2+)"/>
+<wire x1="203.2" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
+<label x="205.74" y="83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TC0_FAULT" class="0">
 <segment>
@@ -17698,12 +17706,22 @@ Temp:</text>
 <wire x1="541.02" y1="160.02" x2="553.72" y2="160.02" width="0.1524" layer="91"/>
 <label x="543.56" y="160.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA28"/>
+<wire x1="203.2" y1="76.2" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
+<label x="205.74" y="76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TC0_CS" class="0">
 <segment>
 <pinref part="TC0" gate="G$1" pin="!CS"/>
 <wire x1="541.02" y1="149.86" x2="553.72" y2="149.86" width="0.1524" layer="91"/>
 <label x="543.56" y="149.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PB02(AIN10/SER5:0)"/>
+<wire x1="134.62" y1="81.28" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
+<label x="114.3" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -17766,12 +17784,22 @@ Temp:</text>
 <wire x1="541.02" y1="228.6" x2="553.72" y2="228.6" width="0.1524" layer="91"/>
 <label x="543.56" y="228.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA27"/>
+<wire x1="203.2" y1="78.74" x2="220.98" y2="78.74" width="0.1524" layer="91"/>
+<label x="205.74" y="78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TC1_CS" class="0">
 <segment>
 <pinref part="TC1" gate="G$1" pin="!CS"/>
 <wire x1="541.02" y1="218.44" x2="553.72" y2="218.44" width="0.1524" layer="91"/>
 <label x="543.56" y="218.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA01(XOUT32/SER1:1/TC2:1)"/>
+<wire x1="134.62" y1="99.06" x2="114.3" y2="99.06" width="0.1524" layer="91"/>
+<label x="114.3" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TC0_DRDY" class="0">
@@ -17780,6 +17808,25 @@ Temp:</text>
 <wire x1="515.62" y1="147.32" x2="513.08" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="513.08" y1="147.32" x2="513.08" y2="124.46" width="0.1524" layer="91"/>
 <label x="513.08" y="124.46" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PB03(AIN11/SER5:1)"/>
+<wire x1="134.62" y1="78.74" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
+<label x="114.3" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SD_CD" class="0">
+<segment>
+<label x="294.64" y="157.48" size="1.778" layer="95"/>
+<pinref part="R40" gate="G$1" pin="1"/>
+<wire x1="304.8" y1="160.02" x2="304.8" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="SER4" gate="1" pin="CD1"/>
+<wire x1="304.8" y1="157.48" x2="294.64" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA03(AIN1/REFA)"/>
+<wire x1="134.62" y1="93.98" x2="114.3" y2="93.98" width="0.1524" layer="91"/>
+<label x="114.3" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
