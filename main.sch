@@ -18546,6 +18546,17 @@ Temp:</text>
 <approved hash="104,2,91.44,83.82,3.3V_REG,AGND,GND,,,"/>
 <approved hash="104,2,91.44,104.14,3.3V_REG,SW,N$7,,,"/>
 <approved hash="104,2,91.44,78.74,3.3V_REG,PAD,GND,,,"/>
+<approved hash="104,2,228.6,109.22,POWER_CONTROLLER,PVCC_2,PC_PVCC,,,"/>
+<approved hash="104,2,228.6,106.68,POWER_CONTROLLER,PVCC,PC_PVCC,,,"/>
+<approved hash="104,2,299.72,99.06,POWER_CONTROLLER,REGN,PC_REGN,,,"/>
+<approved hash="104,2,299.72,101.6,POWER_CONTROLLER,BTST,PC_BTST,,,"/>
+<approved hash="104,2,299.72,104.14,POWER_CONTROLLER,PGND_2,GND,,,"/>
+<approved hash="104,2,299.72,106.68,POWER_CONTROLLER,PGND,GND,,,"/>
+<approved hash="104,2,299.72,111.76,POWER_CONTROLLER,EPAD,GND,,,"/>
+<approved hash="104,1,515.62,160.02,TC0,BIAS,N$23,,,"/>
+<approved hash="104,1,515.62,152.4,TC0,AVDD,3.3V,,,"/>
+<approved hash="104,1,541.02,147.32,TC0,DVDD,3.3V,,,"/>
+<approved hash="104,1,541.02,162.56,TC0,DGND,GND,,,"/>
 </errors>
 </schematic>
 </drawing>
