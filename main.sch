@@ -16586,14 +16586,14 @@ Temp:</text>
 <part name="3.3V_REG" library="TPS62162-Q1" deviceset="TPS62162QDSGRQ1" device="" value=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="REF"/>
-<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="REF"/>
-<part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="REF"/>
-<part name="L1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="L-US" device="L2012C" package3d_urn="urn:adsk.eagle:package:25925/1" value="REF"/>
-<part name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="REF"/>
+<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="470k"/>
+<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="150k"/>
+<part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100k"/>
+<part name="L1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="L-US" device="L2012C" package3d_urn="urn:adsk.eagle:package:25925/1" value="2.2u"/>
+<part name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="22u"/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="REF"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10u"/>
 <part name="POWER_CONTROLLER" library="BQ24133" deviceset="BQ24133_RGY_24" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -16654,8 +16654,8 @@ Temp:</text>
 <part name="R30" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="5.23k"/>
 <part name="R31" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="30.1k"/>
 <part name="GND36" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R32" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.5k"/>
-<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
+<part name="R32" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="65"/>
+<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="2V @ 20mA"/>
 <part name="R_THERM" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2" value="103AT"/>
 <part name="R34" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100k"/>
 <part name="R35" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="32.4k"/>
@@ -16718,6 +16718,9 @@ Temp:</text>
 <part name="GND49" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R40" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="R41" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="65"/>
+<part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="2V @ 20mA"/>
+<part name="GND50" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16828,6 +16831,9 @@ Temp:</text>
 <instance part="GND49" gate="1" x="304.8" y="147.32"/>
 <instance part="R40" gate="G$1" x="304.8" y="165.1" rot="R90"/>
 <instance part="SUPPLY19" gate="G$1" x="304.8" y="172.72"/>
+<instance part="R41" gate="G$1" x="243.84" y="96.52"/>
+<instance part="LED2" gate="G$1" x="254" y="96.52" rot="R90"/>
+<instance part="GND50" gate="1" x="264.16" y="96.52" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -17267,6 +17273,11 @@ Temp:</text>
 <pinref part="GND49" gate="1" pin="GND"/>
 <pinref part="SER4" gate="1" pin="CD2"/>
 <wire x1="294.64" y1="152.4" x2="304.8" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND50" gate="1" pin="GND"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<wire x1="261.62" y1="96.52" x2="259.08" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDDCORE" class="0">
@@ -17827,6 +17838,21 @@ Temp:</text>
 <pinref part="SAMD21G18A" gate="G$1" pin="PA03(AIN1/REFA)"/>
 <wire x1="134.62" y1="93.98" x2="114.3" y2="93.98" width="0.1524" layer="91"/>
 <label x="114.3" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED" class="0">
+<segment>
+<pinref part="R41" gate="G$1" pin="1"/>
+<pinref part="SAMD21G18A" gate="G$1" pin="PA19(SER1:3+)"/>
+<wire x1="238.76" y1="96.52" x2="203.2" y2="96.52" width="0.1524" layer="91"/>
+<label x="205.74" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="R41" gate="G$1" pin="2"/>
+<wire x1="248.92" y1="96.52" x2="251.46" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
