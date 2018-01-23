@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.2">
+<eagle version="8.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16583,11 +16583,9 @@ Temp:</text>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="IMU" library="BNO055" deviceset="BNO055" device=""/>
-<part name="3.3V_REG" library="TPS62162-Q1" deviceset="TPS62162QDSGRQ1" device="" value=""/>
+<part name="TPS62162-Q1" library="TPS62162-Q1" deviceset="TPS62162QDSGRQ1" device="" value=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="470k"/>
-<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="150k"/>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100k"/>
 <part name="L1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="L-US" device="L2012C" package3d_urn="urn:adsk.eagle:package:25925/1" value="2.2u"/>
 <part name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="22u"/>
@@ -17861,11 +17859,9 @@ Temp:</text>
 <plain>
 </plain>
 <instances>
-<instance part="3.3V_REG" gate="A" x="71.12" y="91.44"/>
+<instance part="TPS62162-Q1" gate="A" x="71.12" y="91.44"/>
 <instance part="GND6" gate="1" x="93.98" y="73.66"/>
 <instance part="GND7" gate="1" x="45.72" y="83.82"/>
-<instance part="R1" gate="G$1" x="119.38" y="96.52" rot="R90"/>
-<instance part="R2" gate="G$1" x="127" y="86.36" rot="R180"/>
 <instance part="R3" gate="G$1" x="111.76" y="96.52" rot="R90"/>
 <instance part="L1" gate="G$1" x="101.6" y="104.14" rot="R90"/>
 <instance part="C6" gate="G$1" x="134.62" y="96.52"/>
@@ -17937,17 +17933,13 @@ Temp:</text>
 <segment>
 <wire x1="109.22" y1="104.14" x2="111.76" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="104.14" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="3.3V_REG" gate="A" pin="VOS"/>
+<pinref part="TPS62162-Q1" gate="A" pin="VOS"/>
 <wire x1="91.44" y1="99.06" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="99.06" x2="111.76" y2="104.14" width="0.1524" layer="91"/>
 <junction x="111.76" y="104.14"/>
-<wire x1="111.76" y1="104.14" x2="119.38" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="104.14" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="104.14" x2="134.62" y2="104.14" width="0.1524" layer="91"/>
-<junction x="119.38" y="104.14"/>
+<wire x1="111.76" y1="104.14" x2="134.62" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="104.14" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
@@ -17957,16 +17949,16 @@ Temp:</text>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="3.3V_REG" gate="A" pin="PGND"/>
+<pinref part="TPS62162-Q1" gate="A" pin="PGND"/>
 <wire x1="91.44" y1="81.28" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="81.28" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="78.74" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="81.28" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
 <junction x="93.98" y="81.28"/>
-<pinref part="3.3V_REG" gate="A" pin="AGND"/>
+<pinref part="TPS62162-Q1" gate="A" pin="AGND"/>
 <wire x1="93.98" y1="83.82" x2="91.44" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="3.3V_REG" gate="A" pin="PAD"/>
+<pinref part="TPS62162-Q1" gate="A" pin="PAD"/>
 <wire x1="91.44" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
 <junction x="93.98" y="78.74"/>
 </segment>
@@ -17976,13 +17968,15 @@ Temp:</text>
 <pinref part="C7" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="86.36" x2="134.62" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="86.36" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="86.36" x2="134.62" y2="83.82" width="0.1524" layer="91"/>
 <junction x="134.62" y="86.36"/>
 <pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="134.62" y1="86.36" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="TPS62162-Q1" gate="A" pin="FB"/>
+<wire x1="91.44" y1="88.9" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="86.36" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="POWER_CONTROLLER" gate="A" pin="EPAD"/>
@@ -18085,9 +18079,9 @@ Temp:</text>
 </net>
 <net name="VSYS" class="0">
 <segment>
-<pinref part="3.3V_REG" gate="A" pin="VIN"/>
+<pinref part="TPS62162-Q1" gate="A" pin="VIN"/>
 <wire x1="50.8" y1="104.14" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="3.3V_REG" gate="A" pin="EN"/>
+<pinref part="TPS62162-Q1" gate="A" pin="EN"/>
 <wire x1="50.8" y1="99.06" x2="45.72" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="99.06" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="99.06" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
@@ -18104,33 +18098,20 @@ Temp:</text>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="3.3V_REG" gate="A" pin="SW"/>
+<pinref part="TPS62162-Q1" gate="A" pin="SW"/>
 <wire x1="93.98" y1="104.14" x2="91.44" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PG" class="0">
 <segment>
-<pinref part="3.3V_REG" gate="A" pin="PG"/>
+<pinref part="TPS62162-Q1" gate="A" pin="PG"/>
 <wire x1="91.44" y1="93.98" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="93.98" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="88.9" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <label x="91.44" y="93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="86.36" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="91.44" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="86.36" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
-<junction x="119.38" y="86.36"/>
-<pinref part="3.3V_REG" gate="A" pin="FB"/>
-<wire x1="91.44" y1="88.9" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="86.36" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PC_ISET" class="0">
