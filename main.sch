@@ -16709,17 +16709,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C23" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100nF"/>
 <part name="R31" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="U$18" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
-<part name="U$19" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
-<part name="U$20" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
-<part name="U$22" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
-<part name="U$23" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
-<part name="U$24" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GPIO" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X10" device="" package3d_urn="urn:adsk.eagle:package:22406/2"/>
 <part name="R28" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="64.9"/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="2V @ 20mA"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND23" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND25" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="R29" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -17590,12 +17591,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND-JMP" gate="G$1" x="441.96" y="15.24" rot="R180"/>
 <instance part="U$15" gate="G$1" x="472.44" y="22.86"/>
 <instance part="U$17" gate="G$1" x="482.6" y="22.86"/>
-<instance part="U$18" gate="G$1" x="467.36" y="53.34"/>
-<instance part="U$19" gate="G$1" x="340.36" y="116.84"/>
-<instance part="U$20" gate="G$1" x="490.22" y="119.38"/>
-<instance part="U$22" gate="G$1" x="535.94" y="71.12"/>
-<instance part="U$23" gate="G$1" x="525.78" y="71.12"/>
-<instance part="U$24" gate="G$1" x="515.62" y="71.12"/>
+<instance part="GND20" gate="1" x="490.22" y="116.84"/>
+<instance part="GND21" gate="1" x="340.36" y="116.84"/>
+<instance part="GND22" gate="1" x="467.36" y="53.34"/>
+<instance part="GND23" gate="1" x="515.62" y="71.12"/>
+<instance part="GND25" gate="1" x="525.78" y="71.12"/>
+<instance part="GND26" gate="1" x="535.94" y="71.12"/>
+<instance part="R29" gate="G$1" x="617.22" y="78.74"/>
 </instances>
 <busses>
 </busses>
@@ -17625,6 +17627,44 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND-JMP" gate="G$1" pin="1"/>
 <wire x1="454.66" y1="12.7" x2="454.66" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="454.66" y1="15.24" x2="447.04" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="490.22" y1="119.38" x2="490.22" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="340.36" y1="119.38" x2="340.36" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="PGND"/>
+<pinref part="U1" gate="A" pin="PGND_2"/>
+<wire x1="454.66" y1="60.96" x2="467.36" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="467.36" y1="60.96" x2="467.36" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<junction x="467.36" y="60.96"/>
+<wire x1="467.36" y1="58.42" x2="467.36" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="58.42" x2="467.36" y2="58.42" width="0.1524" layer="91"/>
+<junction x="467.36" y="58.42"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C19" gate="G$1" pin="2"/>
+<wire x1="515.62" y1="73.66" x2="515.62" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="GND23" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C20" gate="G$1" pin="2"/>
+<wire x1="525.78" y1="76.2" x2="525.78" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="GND25" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="BATT" gate="G$1" pin="2"/>
+<wire x1="543.56" y1="81.28" x2="535.94" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="535.94" y1="81.28" x2="535.94" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="GND26" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VSYS" class="0">
@@ -17724,6 +17764,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="596.9" y1="78.74" x2="609.6" y2="78.74" width="0.1524" layer="91"/>
 <junction x="596.9" y="78.74"/>
 <label x="581.66" y="78.74" size="1.778" layer="95"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<wire x1="609.6" y1="78.74" x2="612.14" y2="78.74" width="0.1524" layer="91"/>
+<junction x="609.6" y="78.74"/>
 </segment>
 </net>
 <net name="PC_BTST" class="0">
@@ -17991,6 +18034,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="454.66" y1="35.56" x2="464.82" y2="35.56" width="0.1524" layer="91"/>
 <label x="454.66" y="35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R29" gate="G$1" pin="2"/>
+<wire x1="622.3" y1="78.74" x2="637.54" y2="78.74" width="0.1524" layer="91"/>
+<label x="629.92" y="78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PC_PVCC_2" class="0">
 <segment>
@@ -18140,43 +18188,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="482.6" y1="25.4" x2="482.6" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="U$17" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="U1" gate="A" pin="PGND"/>
-<pinref part="U1" gate="A" pin="PGND_2"/>
-<wire x1="454.66" y1="60.96" x2="467.36" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="467.36" y1="60.96" x2="467.36" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C22" gate="G$1" pin="2"/>
-<junction x="467.36" y="60.96"/>
-<wire x1="467.36" y1="58.42" x2="467.36" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="454.66" y1="58.42" x2="467.36" y2="58.42" width="0.1524" layer="91"/>
-<junction x="467.36" y="58.42"/>
-<pinref part="U$18" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="340.36" y1="119.38" x2="340.36" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U$19" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="C15" gate="G$1" pin="2"/>
-<pinref part="U$20" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="BATT" gate="G$1" pin="2"/>
-<wire x1="543.56" y1="81.28" x2="535.94" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="535.94" y1="81.28" x2="535.94" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$22" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="C20" gate="G$1" pin="2"/>
-<wire x1="525.78" y1="76.2" x2="525.78" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$23" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="C19" gate="G$1" pin="2"/>
-<wire x1="515.62" y1="73.66" x2="515.62" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U$24" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="VIN" class="0">
