@@ -1,4 +1,4 @@
-# far-mars-onboard-pcb
+# far-mars-dpm-pcb
 SAMD21G18A Based Data Acquisition Board Designed in Autodesk Eagle
 * Cortex M0 Based Microcontroller
 * Dynamic Power Management
