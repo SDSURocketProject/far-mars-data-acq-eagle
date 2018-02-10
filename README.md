@@ -10,3 +10,16 @@ SAMD21G18A Based Data Acquisition Board Designed in Autodesk Eagle
 * Miscellaneous GPIO ports for reading rocket states and futureproofing
 * RS-485 interface for long distance wired communications
 * Power effecient
+
+
+## The Board
+
+* Unfinsihed
+
+## Firmware
+
+Documentation and development of the firmware for this board can be found in our [far-mars-onboard-firmware](https://github.com/SDSURocketProject/far-mars-onboard-firmware) repository.
+
+## Bill of Materials
+
+* Unfinished
